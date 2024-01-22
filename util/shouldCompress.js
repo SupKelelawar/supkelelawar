@@ -1,7 +1,7 @@
 const MIN_COMPRESS_LENGTH = 1024;
 const MIN_TRANSPARENT_COMPRESS_LENGTH = MIN_COMPRESS_LENGTH * 100;
-const MAX_WIDTH = 800;
-const MAX_HEIGHT = 600;
+const MAX_WIDTH = 240;
+const MAX_HEIGHT = 320;
 
 function resizeImage(imageData, maxWidth, maxHeight) {
   try {
